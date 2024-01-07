@@ -1157,6 +1157,23 @@ input.mail_bt::placeholder {
     width: 93px; /* Adjust the width as needed */
   }
 
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: #808080; /* Gray background color */
+    padding: 10px; 
+}
+
+.navigation-buttons button {
+    width: 150px; 
+    background-color: #d3d3d3;
+}
+
+.navigation-buttons a {
+    text-decoration: none;
+    color: #000; 
+}
+
 
 
 
