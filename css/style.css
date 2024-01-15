@@ -1199,9 +1199,81 @@ input.mail_bt::placeholder {
     line-height: 1.5;
     margin-bottom: 15px;
   }
-  
-  /* Add more specific styles as needed */
-  
+
+  /* reset pwd style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resetpwd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resetpwd-container {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resetpwd h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.resetpwd p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.resetpwd-fields {
+    margin-bottom: 20px;
+}
+
+.resetpwd input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.resetpwd-fields button {
+    background-color: #f26522;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.resetpwd button:hover {
+    background-color: #f26522;
+}
+
+.resetpwd a {
+    text-decoration: none;
+    color: #f26522;
+}
+
+.resetpwd a:hover {
+    text-decoration: underline;
+}
+
   
 
 

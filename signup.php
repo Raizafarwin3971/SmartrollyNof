@@ -39,7 +39,7 @@
 <body>
     <div class='signup'>
         <div class='nav-logo-log'>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
           </div>
 
           <br><br>  
@@ -61,7 +61,7 @@
                 </div>
 
                 <button><a>Continue</a></button>
-                <p class='signup-link'>Already have an account?<span><a href="login.html">Login</a></span></p>
+                <p class='signup-link'>Already have an account?<span><a href="login.php">Login</a></span></p>
                 <div class="loginsignup-agree">
                     
                     <input type="checkbox" name='' id='' required>
@@ -75,7 +75,7 @@
     <!-- footer section start -->
     <div class="footer_section layout_padding">
         <div class="container">
-            <div class="footer_logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <div class="footer_logo"><a href="index.php"><img src="images/logo.png"></a></div>
            <div class="input_bt">
               <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
               <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>

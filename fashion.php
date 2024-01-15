@@ -164,7 +164,7 @@
                                  <div class="tshirt_img"><img src="<?= $product['image'];?>" alt="<?= $product['name'];?>"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="fashion.php">See More</a></div>
+                                    
                                  </div>
                               </div>
                            </div>
@@ -176,7 +176,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 3459</span></p>
                            <div class="tshirt_img"><img src="images/dress-shirt-img.png"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                               
                            </div>
                         </div>
@@ -187,7 +187,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 4400</span></p>
                            <div class="tshirt_img"><img src="images/hollowshirt.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                            </div>
                         </div>
                      </div>
@@ -201,7 +201,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 3200</span></p>
                            <div class="tshirt_img"><img src="images/90sshirt.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                               
                            </div>
                         </div>
@@ -212,7 +212,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 4000</span></p>
                            <div class="tshirt_img"><img src="images/shortshirt.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                              
                            </div>
                         </div>
@@ -223,7 +223,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 3999</span></p>
                            <div class="tshirt_img"><img src="images/frontshirt.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                             
                            </div>
                         </div>
@@ -239,7 +239,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/corduroy.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                             
                            </div>
                         </div>
@@ -250,7 +250,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/trouser1.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                               
                         </div>
                      </div>
@@ -261,7 +261,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/trouser2.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                             
                            </div>
                         </div>
@@ -277,7 +277,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/trouser3.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                            
                            </div>
                         </div>
@@ -288,7 +288,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/short1.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                               
                            </div>
                         </div>
@@ -299,7 +299,7 @@
                            <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
                            <div class="tshirt_img"><img src="images/short2.jpg"></div>
                            <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
+                              <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
                            </div>
                         </div>
                      </div>

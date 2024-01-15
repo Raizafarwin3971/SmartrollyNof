@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Fashion</title>
+      <title>Login to Smartrolly</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -40,12 +40,12 @@
    
     <div class='loginsignup'>
         <div class='nav-logo-log'>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
           </div>
 
           <br><br>  
         <div class="loginsignup-container">
-                <h1>Welcome to Smartrolly! Please Log In!</h1>
+                <h1>Welcome to Smartrolly! Please Log In</h1>
 
                 <form method="post" action="">
                   <div class="loginsignup-fields">
@@ -57,10 +57,10 @@
                   
                   <button type="submit">Continue</button>
                </form>
-                <p class='loginsignup-login'>Not registered yet?<span><a href="signup.html">Register Here</a></span></p>
+                <p class='loginsignup-login'>Not registered yet?<span><a href="signup.php">Register Here</a></span></p>
                 <div class="loginsignup-forgot-pwd">
                     
-                <p><a href="resetpwd.html">Forgot password</a></p>
+                <p><a href="resetpwd.php">Forgot password</a></p>
                     
                 </div>
                 
@@ -70,7 +70,7 @@
     <!-- footer section start -->
     <div class="footer_section layout_padding">
         <div class="container">
-            <div class="footer_logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <div class="footer_logo"><a href="index.php"><img src="images/logo.png"></a></div>
            <div class="input_bt">
               <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
               <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
