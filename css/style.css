@@ -15,75 +15,75 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
-* {
-    box-sizing: border-box !important;
-    transition: ease all 0.5s;
-}
+    * {
+        box-sizing: border-box !important;
+        transition: ease all 0.5s;
+    }
 
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
 
-body {
-    color: #666666;
-    font-size: 14px;
-    line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-}
+    body {
+        color: #666666;
+        font-size: 14px;
+        line-height: 1.80857;
+        font-weight: normal;
+        overflow-x: hidden;
+        font-family: 'Poppins', sans-serif;
+    }
 
-a {
-    color: #1f1f1f;
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+    a {
+        color: #1f1f1f;
+        text-decoration: none !important;
+        outline: none !important;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: normal;
-    color: #111111;
-    margin: 0
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        font-weight: normal;
+        position: relative;
+        padding: 0 0 10px 0;
+        font-weight: normal;
+        line-height: normal;
+        color: #111111;
+        margin: 0
+    }
 
-h1 {
-    font-size: 24px
-}
+    h1 {
+        font-size: 24px
+    }
 
-h2 {
-    font-size: 22px
-}
+    h2 {
+        font-size: 22px
+    }
 
-h3 {
-    font-size: 18px
-}
+    h3 {
+        font-size: 18px
+    }
 
-h4 {
-    font-size: 16px
-}
+    h4 {
+        font-size: 16px
+    }
 
-h5 {
-    font-size: 14px
-}
+    h5 {
+        font-size: 14px
+    }
 
-h6 {
-    font-size: 13px
-}
+    h6 {
+        font-size: 13px
+    }
 
 *,
 *::after,
@@ -1173,6 +1173,37 @@ input.mail_bt::placeholder {
     text-decoration: none;
     color: #000; 
 }
+
+/*privacy pol*/ 
+.privacy_policy_section {
+    
+    padding: 70px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Add more specific styles as needed */
+  
+  
+
 
 
 

@@ -1,5 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+   $con = mysqli_connect('localhost', 'root');
+   mysqli_select_db($con, 'smartrolly');
+   $sql = "SELECT * FROM products WHERE featured=1";
+   $featured = $con->query($sql);
+
+?>
+
+
+<!DOCTYPE php>
+<php lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -63,7 +72,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-sm-12">
-                     <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                     <div class="logo"><a href="index.php"><img src="images/logo.png"></a></div>
                   </div>
                </div>
             </div>
@@ -75,19 +84,19 @@
                <div class="containt_main">
                   <div id="mySidenav" class="sidenav">
                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="index.html">Home</a>
-                     <a href="fashion.html">Fashion</a>
-                     <a href="electronic.html">Electronic</a>
-                     <a href="jewellery.html">Jewellery</a>
+                     <a href="index.php">Home</a>
+                     <a href="fashion.php">Fashion</a>
+                     <a href="electronic.php">Electronic</a>
+                     <a href="jewellery.php">Jewellery</a>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                   <div class="dropdown">
                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
                      </button>
                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="fashion.html">Fashion</a>
-                        <a class="dropdown-item" href="electronic.html">Electronic</a>
-                        <a class="dropdown-item" href="jewellery.html">Jewellery</a>
+                        <a class="dropdown-item" href="fashion.php">Fashion</a>
+                        <a class="dropdown-item" href="electronic.php">Electronic</a>
+                        <a class="dropdown-item" href="jewellery.php">Jewellery</a>
                      </div>
                   </div>
                   <div class="main">
@@ -115,11 +124,11 @@
                      </div>
                      <div class="login_menu">
                         <ul>
-                           <li><a href="cart.html">
+                           <li><a href="cart.php">
                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                               <span class="padding_10">Cart</span></a>
                            </li>
-                           <li><a href="login.html">
+                           <li><a href="login.php">
                               <i class="fa fa-user" aria-hidden="true"></i>
                               <span class="padding_10">Login</span></a>
                            </li>
@@ -133,9 +142,9 @@
          
    <!-- buttons -->
    <div class="navigation-buttons">
-      <button class="btn btn-outline-secondary"><a href="kids.html">Kids</a></button>
-      <button class="btn btn-outline-secondary"><a href="fashion.html">Men</a></button>
-      <button class="btn btn-outline-secondary"><a href="women.html">Women</a></button>
+      <button class="btn btn-outline-secondary"><a href="kids.php">Kids</a></button>
+      <button class="btn btn-outline-secondary"><a href="fashion.php">Men</a></button>
+      <button class="btn btn-outline-secondary"><a href="women.php">Women</a></button>
   </div>
 
       <!-- fashion section start -->
@@ -144,20 +153,26 @@
                <h1 class="fashion_taital">Men</h1>
                <div class="fashion_section_2">
                   <div class="row">
-                     <div class="col-lg-4 col-sm-4">
-                        <div class="box_main">
-                           <h4 class="shirt_text">Men 1</h4>
-                           <p class="price_text">Price  <span style="color: #262626;">LKR. 1100</span></p>
-                           <div class="tshirt_img"><img src="images/tshirt-img.png"></div>
-                           <div class="btn_main">
-                              <div class="buy_bt"><a href="#">Buy Now</a></div>
-                              
+                  <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <?php
+                                 while($product = mysqli_fetch_assoc($featured)):
+                                 ?>
+                                 <h4 class="shirt_text"><?= $product['name'];?></h4>
+                                 <p class="price_text">Price <span style="color: #262626;">LKR. <?= $product['price'];?></span></p>
+                                 
+                                 <div class="tshirt_img"><img src="<?= $product['image'];?>" alt="<?= $product['name'];?>"/></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="buy.php">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="fashion.php">See More</a></div>
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-                     </div>
+                           <?php endwhile; ?>
                      <div class="col-lg-4 col-sm-4">
                         <div class="box_main">
-                           <h4 class="shirt_text">Men 2</h4>
+                           
+                           <h4 class="shirt_text">Men </h4>
                            <p class="price_text">Price  <span style="color: #262626;">LKR. 3459</span></p>
                            <div class="tshirt_img"><img src="images/dress-shirt-img.png"></div>
                            <div class="btn_main">
@@ -303,7 +318,7 @@
  <!-- footer section start -->
  <div class="footer_section layout_padding">
    <div class="container">
-       <div class="footer_logo"><a href="index.html"><img src="images/logo.png"></a></div>
+       <div class="footer_logo"><a href="index.php"><img src="images/logo.png"></a></div>
       <div class="input_bt">
          <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
          <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>

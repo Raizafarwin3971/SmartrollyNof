@@ -137,14 +137,14 @@
        <!-- fashion section start -->
           <div class="fashion_section">
              <div class="container"><br><br>
-                   <h1 class="fashion_taital">Electronics</h1>
+                   <h1 class="fashion_taital">Laptops</h1>
                    <div class="fashion_section_2">
                       <div class="row">
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Frock 1</h4>
+                               <h4 class="shirt_text">Lap 1</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 1100</span></p>
-                               <div class="tshirt_img"><img src="images/frock1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap1.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                   
@@ -153,9 +153,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Frock 2</h4>
+                               <h4 class="shirt_text">Lap 2</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 3459</span></p>
-                               <div class="tshirt_img"><img src="images/frock2.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 2.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                   
@@ -164,9 +164,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Blouse 1</h4>
+                               <h4 class="shirt_text">Lap 3</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 4400</span></p>
-                               <div class="tshirt_img"><img src="images/blouse1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 3.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                </div>
@@ -178,9 +178,9 @@
                       <div class="row">
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Blouse 2</h4>
+                               <h4 class="shirt_text">Lap 4</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 3200</span></p>
-                               <div class="tshirt_img"><img src="images/blouse2.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 4.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                   
@@ -189,9 +189,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Top 1 </h4>
+                               <h4 class="shirt_text">Lap 5</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 4000</span></p>
-                               <div class="tshirt_img"><img src="images/top1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 5.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                  
@@ -200,9 +200,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Top 2</h4>
+                               <h4 class="shirt_text">Lap 6</h4>
                                <p class="price_text">Price  <span style="color: #262626;">LKR. 3999</span></p>
-                               <div class="tshirt_img"><img src="images/top2.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 6.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                 
@@ -216,9 +216,9 @@
                       <div class="row">
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Full dress</h4>
+                               <h4 class="shirt_text">Lap 7</h4>
                                <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                               <div class="tshirt_img"><img src="images/fulldress1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 7.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                 
@@ -227,9 +227,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Shalwar 1</h4>
+                               <h4 class="shirt_text">Lap 8</h4>
                                <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                               <div class="tshirt_img"><img src="images/shalwar1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 8.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                   
@@ -238,9 +238,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Shalwar 2 </h4>
+                               <h4 class="shirt_text">Lap 9</h4>
                                <p class="price_text">Price  <span style="color: #262626;"></span></p>
-                               <div class="tshirt_img"><img src="images/shalwar2.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 9.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                 
@@ -254,9 +254,9 @@
                       <div class="row">
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Shalwar 3</h4>
+                               <h4 class="shirt_text">Lap 10</h4>
                                <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                               <div class="tshirt_img"><img src="images/shalwar3.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 10.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                
@@ -265,9 +265,9 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">short 1</h4>
+                               <h4 class="shirt_text">Lap 11</h4>
                                <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                               <div class="tshirt_img"><img src="images/pant1.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 11.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                   
@@ -276,16 +276,15 @@
                          </div>
                          <div class="col-lg-4 col-sm-4">
                             <div class="box_main">
-                               <h4 class="shirt_text">Pant 2</h4>
+                               <h4 class="shirt_text">Lap 12</h4>
                                <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
-                               <div class="tshirt_img"><img src="images/pant2.jpg"></div>
+                               <div class="tshirt_img"><img src="images/lap 12.webp"></div>
                                <div class="btn_main">
                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
                                </div>
                             </div>
                          </div>
                       </div>
-
 
                    </div>
                 </div>

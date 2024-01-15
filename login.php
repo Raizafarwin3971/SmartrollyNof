@@ -33,10 +33,11 @@
       <!-- owl stylesheets -->
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
       <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
 <body>
+   
     <div class='loginsignup'>
         <div class='nav-logo-log'>
             <a href="index.html"><img src="images/logo.png" alt=""></a>
@@ -44,19 +45,20 @@
 
           <br><br>  
         <div class="loginsignup-container">
-                
                 <h1>Welcome to Smartrolly! Please Log In </h1>
-                <div class="loginsignup-fields">
-                
-                    <input type="email" placeholder='Email Address' required>
-                    <input type="password" placeholder='Password' required>
-    
-                </div>
-    
-                <button><a>Continue</a></button>
+
+                <form method="post" action="">
+                  <div class="loginsignup-fields">
+                  
+                     <input type="email" name="email" placeholder='Email Address' required>
+                     <input type="password" name="password" placeholder='Password' required>
+      
+                  </div>
+                  
+                  <button type="submit">Continue</button>
+               </form>
                 <p class='loginsignup-login'>Not registered yet?<span><a href="signup.html">Register Here</a></span></p>
                 <div class="loginsignup-forgot-pwd">
-                    
                     
                 <p><a href="resetpwd.html">Forgot password</a></p>
                     
